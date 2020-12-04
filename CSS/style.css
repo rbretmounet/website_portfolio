@@ -1152,3 +1152,16 @@
     body:before{content:'Aspect ratio out of range - too narrow';color: white;text-align: center;width: 100%;height: 100%;display: block;position: absolute;top: 50%;}
     #sky, #reflection, #sunMask, #landscape, #bottom, #stag, .controls, .stars, .sunMask, .clouds, .lighting, .vignette, .twinkleWrap,.spriteWrap{display: none;}
   }
+@font-face{
+  font-family: Nexa;
+  src: url(../Fonts/Nexa_V2_2020/OTF/NexaDemo-Light.otf)
+}
+.text{
+  font-family: Nexa;
+  color: #f8f8ff;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  text-align: center;
+}
