@@ -8,7 +8,7 @@
 .text{
   font-family: Nexa;
   color: #f8f8ff;
-  position: absolute;
+  position: relative;
   left: 50%;
   top: 50%;
   transform: translateX(-50%) translateY(-50%);
@@ -26,7 +26,7 @@ a.animated-button:link, a.animated-button:visited {
 	padding: 14px 28px;
   font-family: Nexa;
   color: #f8f8ff;
-  position: absolute;
+  position: relative;
   text-align: center;
 	font-size:14px;
 	text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
@@ -34,9 +34,9 @@ a.animated-button:link, a.animated-button:visited {
 	-moz-transition: all 1s ease;
 	-o-transition: all 1s ease;
   transition: all 1s ease;
-  left: 5%;
-  top: 55%;
-  transform: translateX(-50%) translateY(-50%);
+  left: 0%;
+  top: 50%;
+  transform: translate(0,-50%)
 }
 a.animated-button:link:after, a.animated-button:visited:after {
 	content: "";
