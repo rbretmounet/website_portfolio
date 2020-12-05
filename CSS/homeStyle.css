@@ -5,6 +5,8 @@
   font-family: Nexa;
   src: url(../Fonts/Nexa_V2_2020/OTF/NexaDemo-Light.otf)
 }
+
+
 .text{
   font-family: Nexa;
   color: #f8f8ff;
@@ -14,9 +16,7 @@
   transform: translateX(-50%) translateY(-50%);
   text-align: center;
 }
-.front_info{
-  z-index: 99;
-}
+
 /* Global Button Styles */
 a.animated-button:link, a.animated-button:visited {
   display: block;
@@ -1112,11 +1112,11 @@ a.animated-button.victoria-four:hover:after {
   ---------------------------------------------- */
 
   /* 3/2 and 6/1 -- out of range*/
-  @media screen and (min-aspect-ratio: 3/1) and (max-aspect-ratio: 6/1){
+  /*@media screen and (min-aspect-ratio: 3/1) and (max-aspect-ratio: 6/1){
     body{background: rgb(31, 60, 80);}
-    body:before{content:'Aspect ratio out of range - too wide';color: white;text-align: center;width: 100%;height: 100%;display: block;position: absolute;top: 50%;}
+    /*body:before{content:'Aspect ratio out of range - too wide';color: white;text-align: center;width: 100%;height: 100%;display: block;position: absolute;top: 50%;}
     #sky, #reflection, #sunMask, #landscape, #bottom, #stag, .controls, .stars, .sunMask, .clouds, .lighting, .vignette, .twinkleWrap,.spriteWrap{display: none;}
-  }
+  }*/
 
   /* 14/5 and 3/1 */
   @media screen and (min-aspect-ratio: 14/5) and (max-aspect-ratio: 7/2){
@@ -1278,8 +1278,8 @@ a.animated-button.victoria-four:hover:after {
   }
 
   /* 1/10 and 5/9 --- out of range*/
-  @media screen and (min-aspect-ratio: 1/10) and (max-aspect-ratio: 5/9){
+  /*@media screen and (min-aspect-ratio: 1/10) and (max-aspect-ratio: 5/9){
     body{background: rgb(31, 60, 80);}
     body:before{content:'Aspect ratio out of range - too narrow';color: white;text-align: center;width: 100%;height: 100%;display: block;position: absolute;top: 50%;}
     #sky, #reflection, #sunMask, #landscape, #bottom, #stag, .controls, .stars, .sunMask, .clouds, .lighting, .vignette, .twinkleWrap,.spriteWrap{display: none;}
-  }
+  }*/

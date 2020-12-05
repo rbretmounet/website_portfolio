@@ -27,27 +27,16 @@ section{
     display: inline-block;
     width: 100%;
     height: 100vh;
-    font-size: 5px;
-    font-style: Nexa;
-    top: 0;
-    
+
   }
   .content .section:nth-child(1){
     background-color: #1b1b6b;
   }
   .content .section:nth-child(2){
     background-color: #f8f8ff;
-   
-    
   }
   .content .section:nth-child(3){
     background-color: #fd79a8;
-  }
-  .content .section:nth-child(4){
-    background-color: #00b894;
-  }
-  .content .section:nth-child(5){
-    background-color: #fdcb6e;
   }
   section h1{
       display:  flex;
@@ -55,5 +44,16 @@ section{
       align-items: center;
       height: 100vh;
       font-size: 15em;
-      color: #00000050;
+      color: #f8f8ff;
+      font-style: Nexa;
   }
+  .test{
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 5em;
+    color: #252934;
+    top: 0;
+    font-style: Nexa;
+}
