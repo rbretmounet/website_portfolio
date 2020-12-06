@@ -4,14 +4,93 @@
 	font-family: Nexa;
 	src: url(../Fonts/Nexa_V2_2020/OTF/NexaDemo-Light.otf)
   }
+h4 {
+	margin-bottom: 0px;
+	margin-top: 10px;
+}
+
+p {
+    line-height: 5px;
+}
+
+.portrait{
+	position: relative;
+	top: 18vh;
+	right: 17%;
+}
+  .bars{
+	position: relative;
+	top: 20%;
+	right: 60%;
+}
+.skill1{
+	background-color:#414040;
+	width: 30%;
+	font-family: Nexa;
+	color: #f8f8ff;
+	height: 5%;
+	font-size: 63%;
+	position: relative;
+	top: 30px;
+	right: 30%;
+}
+.skills{
+	width: 20%;
+	left: 69%;
+	bottom: 27%;
+	position: relative;
+}
+.bar-border{
+	border: 3px solid#4d4c4c;
+}
+.fill1,.fill4{
+	height: 24px;
+	width: 90%;
+	background-color: #D24D57;
+	font-style: Nexa;
+	color: #4d4c4c;
+	font-size: 20px;
+}
+.fill2,.fill5,.fill6{
+	height: 24px;
+	width: 80%;
+	background-color: #D24D57;
+	font-style: Nexa;
+	color: #4d4c4c;
+	font-size: 20px;
+}
+.fill3,.fill9{
+	height: 24px;
+	width: 60%;
+	background-color: #D24D57;
+	font-style: Nexa;
+	color: #4d4c4c;
+	font-size: 20px;
+}
+
+.fill7,.fill8,.fill10{
+	height: 24px;
+	width: 70%;
+	background-color: #D24D57;
+	font-style: Nexa;
+	color: #4d4c4c;
+	font-size: 20px;
+}
+
   .fa {
+	display: inline-block;
 	padding: 20px 10px 50px;
 	font-size: 30px;
-	width: 50px;
-	text-align: center;
+	width: 6vh;
 	text-decoration: none;
 	position: relative;
-
+	color: white;
+	background-color: #333232;
+	height: .3vh;
+	justify-content: center;
+	align-items: center;
+	top: -2vh;
+	right: .2vw;
   }
   
   /* Add a hover effect if you want */
@@ -49,7 +128,6 @@ header {
   border-bottom: 3px solid#444;
   top: 0px;
   z-index: 3;
-  
 }
 
 header::after {
