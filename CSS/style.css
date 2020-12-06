@@ -28,7 +28,6 @@ footer {
 }
 body {
 	margin: 0;
-	background: #222;
 	font-family: 'Work Sans', sans-serif;
 	font-weight: 800;
 }
@@ -46,7 +45,7 @@ header {
   position: relative;
   border-bottom: 3px solid#444;
   top: 0px;
-  z-index: 1;
+  z-index: 3;
   
 }
 
@@ -385,7 +384,6 @@ video {
 	position: absolute;
 	top: 0;
 	left: 0;
-	z-index: 3;
   }
 
 a {
