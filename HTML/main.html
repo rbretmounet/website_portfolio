@@ -6,6 +6,14 @@
   <link rel='stylesheet' href='https://rawgit.com/alvarotrigo/fullPage.js/dev/src/fullpage.css'><link rel="stylesheet" href="../CSS/style.css">
   <link rel="stylesheet" href="../CSS/homeStyle.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+  <script  src="../JavaScript/validate.js"></script>
+  <script type="text/javascript">
+      (function() {
+          // https://dashboard.emailjs.com/admin/integration
+          emailjs.init('user_eLYgtoEu8cIvgm9rjrSk2');
+      })();
+  </script>
 </head>
 <body>
     <header id="menu">
@@ -41,8 +49,23 @@
         <div class="slide"> Project2 </div>-->
     </div> 
     <div data-anchor="contact" class="section">
-            <h1>Contact</h1>
-                  
+      <div class="container">
+        <h1 class ="contactHeader">Contact</h1>
+        <form id="contactForm" action="#" name="contact_form">
+          <input name="first_name" type="text" placeholder="*Name"/>
+          <br>
+          <input name="last_name" type="text" placeholder="*Last Name"/>
+          <br>
+          <input name="email" type="email" placeholder="*Enter Email"/>
+          <br>
+          <textarea id="message" name="message" cols="30" rows="10" placeholder="Enter your message here ..." required></textarea>
+          <div class="center">
+            <a href="#" onclick="validateForm()"
+            class="btn btn-sm animated-button victoria-two">Submit</a>
+          </div>
+        </form>	
+      </div>     
+      
             <footer class="socials"> 
                 <a href="https://github.com/rbretmounet" class="fa fa-github"></a>
                 <a href="https://www.linkedin.com/in/raphael-bret-mounet/" class="fa fa-linkedin"></a>
@@ -50,9 +73,12 @@
         </div>
     </div>
 </div>
-
+<script type="text/javascript">
+  
+</script>
 <!-- partial -->
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 <script src='https://rawgit.com/alvarotrigo/fullPage.js/dev/src/fullpage.js'></script><script  src="../JavaScript/script.js"></script>
+
 </body>
 </html>
