@@ -5,11 +5,13 @@
 	src: url(../Fonts/Nexa_V2_2020/OTF/NexaDemo-Light.otf)
   }
   .fa {
-	padding: 20px;
+	padding: 20px 10px 50px;
 	font-size: 30px;
 	width: 50px;
 	text-align: center;
 	text-decoration: none;
+	position: relative;
+
   }
   
   /* Add a hover effect if you want */
@@ -21,11 +23,12 @@ footer {
 }
 .socials{
 	background-color:#1b242f;
-	padding: 70px 0 50px 0;
+	padding: 70px 0 70px 0;
 	position: absolute;
-	bottom: 5%;
+	bottom: 0%;
 	width: 100%;
 }
+
 body {
 	margin: 0;
 	font-family: 'Work Sans', sans-serif;
