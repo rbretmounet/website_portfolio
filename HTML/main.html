@@ -36,11 +36,13 @@
             <source src="../videos/background Video.mkv" type="video/mp4">
         </video>
         <div class="layer">
-            <h1 class = "text">Welcome to my Portfolio</h1>
-            <a href="#about" class="btn btn-sm animated-button thar-one">View Work</a> 
+            <h1 class = "text" style="animation: fadeIn 4s;">Welcome to my Portfolio</h1>
+            <a href="#about" class="btn btn-sm animated-button thar-one" style="animation: fadeIn 5s; margin-top: 0px;">View Work</a> 
+            <p style="font-family: Nexa; color: #f8f8ff; font-size: medium; opacity: 0.3; margin-top: 0px; animation: fadeIn3 6s;">*Does not currently support mobile</p>
         </div>
     </div>
     <div data-anchor="about" class="section">
+      <h1 class = "aboutHeader">About</h1>
       <div class="portrait">
         <img src="../Images/portrait.png" alt="portrait"  width="300" height="240">
         <div id="aboutText">
@@ -55,7 +57,7 @@
       </div>
         <div class="skills">
           <div class="bars">
-            <h4 style="font-family: Nexa; position: relative; right: 13%; color: #4d4c4c;">Skills:</h4>
+            <h4 style="font-family: Nexa-Bold; position: relative; right: 13%; color: #333333;">Skills:</h4>
             <div class='skill1'>C++</div>
             <div class="bar-border">
               <div class="fill1">90%</div>
@@ -116,7 +118,7 @@
           <br>
           <textarea id="message" name="message" cols="30" rows="10" placeholder="Enter your message here ..." required></textarea>
           <div class="center">
-            <a href="#" onclick="validateForm()"
+            <a id="submitButton" href="#" onclick="validateForm()"
             class="btn btn-sm animated-button victoria-two">Submit</a>
           </div>
         </form>	
