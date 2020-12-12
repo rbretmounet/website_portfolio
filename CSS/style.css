@@ -2,7 +2,7 @@
 
 @font-face{
 	font-family: Nexa;
-	src: url(../Fonts/Nexa_V2_2020/OTF/NexaDemo-Light.otf)
+	src: url(../Fonts/Nexa_V2_2020/OTF/Nexa-Light.otf)
   }
 @font-face{
 	font-family: Nexa-Bold;
@@ -90,34 +90,36 @@ p {
 	height: 24px;
 	width: 90%;
 	background-color: #D24D57;
-	font-style: Nexa;
+	font-family: Nexa;
 	color: #4d4c4c;
-	font-size: 20px;
+	font-size: 57%;
+	
 }
 .fill2,.fill5,.fill6{
 	height: 24px;
 	width: 80%;
 	background-color: #D24D57;
-	font-style: Nexa;
+	font-family: Nexa;
 	color: #4d4c4c;
-	font-size: 20px;
+	font-size: 57%;
+	
 }
 .fill3,.fill9{
 	height: 24px;
 	width: 60%;
 	background-color: #D24D57;
-	font-style: Nexa;
+	font-family: Nexa;
 	color: #4d4c4c;
-	font-size: 20px;
+	font-size: 57%;
 }
 
 .fill7,.fill8,.fill10{
 	height: 24px;
 	width: 70%;
 	background-color: #D24D57;
-	font-style: Nexa;
+	font-family: Nexa;
 	color: #4d4c4c;
-	font-size: 20px;
+	font-size: 57%;
 }
 
 .fa {
@@ -151,12 +153,6 @@ footer {
 	width: 100%;
 }
 
-body {
-	margin: 0;
-	font-family: 'Work Sans', sans-serif;
-	font-weight: 800;
-}
-
 .navbar {
 	width: 85%;
 	margin: 0 auto;
@@ -170,6 +166,7 @@ header {
   position: relative;
   border-bottom: 3px solid#444;
   top: 0px;
+  
   z-index: 3;
 }
 
@@ -203,6 +200,7 @@ header::after {
   text-decoration: none;
   text-transform: uppercase;
   font-size: 14px;
+  font-family: Nexa;
 }
 
 .bar a:hover {
@@ -533,10 +531,6 @@ li {
 /* Remove outline of all elements on focus */
 *:focus {
 	outline: 0;
-}
-
-body {
-	background: #263238;  /* Set background color to #263238*/
 }
 
 h3 {
