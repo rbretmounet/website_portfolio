@@ -37,6 +37,13 @@ body.fp-viewing-contact input[name="first_name"],body.fp-viewing-contact input[n
 	animation: moveToRight 1.5s;
 }
 
+#createTeams{
+	position: relative;
+	max-width:600px;
+	max-height:450px;
+	width: auto;
+	height: auto;
+}
 .aboutHeader{
 	margin-bottom: 0%; 
 	font-family: Nexa-Bold; 
@@ -58,7 +65,7 @@ p {
 .portrait{
 	position: absolute;
 	top: 25vh;
-	left: 25vw;
+	left: 20vw;
 }
 .bars{
 	position: absolute;
@@ -79,7 +86,7 @@ p {
  .skills{
 	position: absolute;
 	left: 60%;
-	top: 19%;
+	top: 21%;
 	width: 50%;
 }
 .bar-border{
