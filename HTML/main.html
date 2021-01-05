@@ -5,10 +5,9 @@
   <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0"/>
   <title>Portfolio</title>
   <link rel='stylesheet' href='https://rawgit.com/alvarotrigo/fullPage.js/dev/src/fullpage.css'><link rel="stylesheet" href="../CSS/style.css">
-  <link rel="stylesheet" href="../CSS/homeStyle.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../CSS/homeStyle.css">
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
-  <script  src="../JavaScript/validate.js"></script>
   <script type="text/javascript">
   
       (function() {
@@ -38,7 +37,7 @@
         </video>
         <div class="layer">
             <h1 class = "text" style="animation: fadeIn 4s;">Welcome to my Portfolio</h1>
-            <a href="#about" class="btn btn-sm animated-button thar-one" style="animation: fadeIn 5s; margin-top: 0px;">View Work</a> 
+<a href="#about" class="btn btn-sm animated-button thar-one" style="animation: fadeIn 5s; margin-top: 0px;">View Work</a>             
             <p style="font-family: Nexa; color: #f8f8ff; font-size: medium; opacity: 0.3; margin-top: 0px; animation: fadeIn3 6s;">*Does not currently support mobile</p>
         </div>
     </div>
@@ -115,7 +114,26 @@
         </div>
     </div>
     <div data-anchor="projects" class="section" >
-      <h3 style="font-family: Nexa-Bold; position: relative; color: #333333;">Projects</h3>
+      <h1 style="font-family: Nexa-Bold; position: relative; color: #333333; margin-bottom: 0; position: relative; bottom: 25%;">Projects</h1>
+      <div id="project1">
+        <img src="../videos/scoring_Points.gif" alt="Avatar" class="image" style="width:100%">
+        <div class="middle">
+          <div class="text">
+            <h6 style="font-family: Nexa-Bold; ">Minecraft Plugin</h6>
+            <a href="#"  onclick="modal_handle('project1_modal')" class="btn btn-sm animated-button thar-one">Learn More</a>
+          </div>
+        </div>
+      </div>
+      <div id="project2">
+        <img src="../videos/leave_Team.gif" alt="Avatar" class="image2" style="width:100%">
+        <div class="middle2">
+          <div class="text2">
+            <h6 style="font-family: Nexa-Bold; color:white">TikTok Bot</h6>
+            <a href="#" onclick="modal_handle('project2_modal')" class="btn btn-sm animated-button thar-one">Learn More</a>
+          </div>
+        </div>
+      </div>
+      
     </div> 
     <div data-anchor="contact" class="section">
       <div class="container">
@@ -139,15 +157,33 @@
                 <a href="https://github.com/rbretmounet" class="fa fa-github"></a>
                 <a href="https://www.linkedin.com/in/raphael-bret-mounet/" class="fa fa-linkedin"></a>
             </footer>
-        </div>
+      </div>
     </div>
 </div>
-<script type="text/javascript">
-  
-</script>
+<!-- Project 1 Modal -->
+<div id="project1_modal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>Project1</p>
+  </div>
+
+</div>
+<!-- Project2 Modal -->
+<div id="project2_modal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>Project2</p>
+  </div>
+
+</div>
 <!-- partial -->
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 <script src='https://rawgit.com/alvarotrigo/fullPage.js/dev/src/fullpage.js'></script><script  src="../JavaScript/script.js"></script>
-
+<script  src="../JavaScript/validate.js"></script>
+<script  src="../JavaScript/modal.js"></script>
 </body>
 </html>
