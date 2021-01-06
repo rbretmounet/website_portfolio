@@ -22,9 +22,9 @@
           <nav class="bar">
             <ul>
               <li><a href="#home">Home</a></li>
-              <li><a href="#about">About</a></li>
-              <li><a href="#projects">Projects</a></li>
-              <li><a href="#contact">Contact</a></li>
+              <li><a href="#about">About Me</a></li>
+              <li><a href="#projects">My Projects</a></li>
+              <li><a href="#contact">Contact Me</a></li>
             </ul>
           </nav>
         </div>
@@ -36,19 +36,19 @@
             <source src="../videos/background Video.mkv" type="video/mp4">
         </video>
         <div class="layer">
-            <h1 class = "text" style="animation: fadeIn 4s;">Welcome to my Portfolio</h1>
-<a href="#about" class="btn btn-sm animated-button thar-one" style="animation: fadeIn 5s; margin-top: 0px;">View Work</a>             
+            <h1 class = "textHome" style="animation: fadeIn 4s; margin-bottom: 20px;">WELCOME TO MY PORTFOLIO</h1>
+            <a href="#about" class="btn btn-sm animated-button thar-one" style="animation: fadeIn 5s; margin-top: 0px;">View Work</a>             
             <p style="font-family: Nexa; color: #f8f8ff; font-size: medium; opacity: 0.3; margin-top: 0px; animation: fadeIn3 6s;">*Does not currently support mobile</p>
         </div>
     </div>
     <div data-anchor="about" class="section">
-      <h1 class = "aboutHeader">About</h1>
+      <h2 class = "aboutHeader">ABOUT ME</h2>
       <div class="portrait">
         <img src="../Images/portrait.png" alt="portrait"  width="300" height="240">
         <div id="aboutText">
           <h4 style="font-family: Nexa;">Raphael Bret-Mounet</h4>
           <p style="font-family: Nexa; font-size: large; margin-bottom: 0;">
-            I am currently studying in college but my first 
+            I am currently studying Computer Engineering in college, but my first 
           </p>
           <p style="font-family: Nexa; font-size: large; margin-bottom: 0;">
             few experiences in the professional space have been so positive 
@@ -60,7 +60,7 @@
             I am a quick learner and enjoy researching and learning new skills.
           </p>
           <p style="font-family: Nexa; font-size: large; margin-bottom: 0;">
-            I have a passion for tinkering with and building robots,looking at 
+            I have a passion for tinkering with and coding robots, looking at 
           </p>
           <p style="font-family: Nexa; font-size: large; margin-bottom: 0;">
             something complex only gets me excited to figure out how it works. 
@@ -112,14 +112,17 @@
             </div>
           </div>
         </div>
+        <a href="../files/Raphael_Bret_Mounet_-_Intern.pdf" class="btn btn-sm animated-button thar-one" style="position: absolute; left: 31.3%; top: 73%; height:15px; width: 100px; font-size:13px; color: #2c2c2c;" download>Resume</a>
+
     </div>
     <div data-anchor="projects" class="section" >
-      <h1 style="font-family: Nexa-Bold; position: relative; color: #333333; margin-bottom: 0; position: relative; bottom: 25%;">Projects</h1>
+      <h2 style="font-family: Nexa-Bold; position: relative; color: #333333; margin-bottom: 20px; position: relative; bottom: 25%;">MY PROJECTS</h2>
       <div id="project1">
         <img src="../videos/scoring_Points.gif" alt="Avatar" class="image" style="width:100%">
         <div class="middle">
-          <div class="text">
-            <h6 style="font-family: Nexa-Bold; ">Minecraft Plugin</h6>
+          <div class="title">
+            <h6 style="font-family: Nexa-Bold; margin-bottom: 0 ">Minecraft Plugin</h6>
+            <p style="color: #D24D57; font-family: Nexa-Bold; font-size: 10pt; margin-top: 3px; margin-bottom: 40px;">JavaScript</p>
             <a href="#" onclick="modal_handle('project1_modal')" class="btn btn-sm animated-button thar-one">Learn More</a>
           </div>
         </div>
@@ -127,8 +130,9 @@
       <div id="project2">
         <img src="../videos/leave_Team.gif" alt="Avatar" class="image2" style="width:100%">
         <div class="middle2">
-          <div class="text2">
-            <h6 style="font-family: Nexa-Bold; color:white">TikTok Bot</h6>
+          <div class="title2">
+            <h6 style="font-family: Nexa-Bold; color:white; margin-bottom: 0">TikTok Bot</h6>
+            <p style="color: #D24D57; font-family: Nexa-Bold; font-size: 10pt; margin-top: 3px; margin-bottom: 40px;">Python</p>
             <a href="#" onclick="modal_handle('project2_modal')" class="btn btn-sm animated-button thar-one">Learn More</a>
           </div>
         </div>
@@ -137,7 +141,7 @@
     </div> 
     <div data-anchor="contact" class="section">
       <div class="container">
-        <h1 class ="contactHeader">Contact</h1>
+        <h2 class ="contactHeader">CONTACT</h2>
         <form id="contactForm" action="#" name="contact_form">
           <input name="first_name" type="text" placeholder="*Name"/>
           <br>
@@ -148,7 +152,7 @@
           <textarea id="message" name="message" cols="30" rows="10" placeholder="Enter your message here ..." required></textarea>
           <div class="center">
             <a id="submitButton" href="#" onclick="validateForm()"
-            class="btn btn-sm animated-button victoria-two">Submit</a>
+            class="btn btn-sm animated-button thar-one">Submit</a>
           </div>
         </form>	
       </div>     
@@ -165,8 +169,59 @@
 
   <!-- Modal content -->
   <div class="modal-content">
-    <span class="close">&times;</span>
-    <p>Project1</p>
+    
+    <div style="text-align: center; font-family: Nexa-Bold;">
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <img src="../videos/create_Teams.gif" style="width:100%; border-bottom: 5px solid #333333;">
+          <div class="text"><p style="font-size: 15pt; opacity: 0.75;">Creating a team</p></div>
+        </div>
+
+        <div class="mySlides fade">
+          <img src="../videos/delete_Team.gif" style="width:100%; border-bottom: 5px solid #333333;">
+          <div class="text"><p style="font-size: 15pt; opacity: 0.75;">Deleting a team</p></div>
+        </div>
+
+        <div class="mySlides fade">
+          <img src="../videos/join_Team.gif" style="width:100%; border-bottom: 5px solid #333333;">
+          <div class="text"><p style="font-size: 15pt; opacity: 0.75;">Joining a team</p></div>
+        </div>
+
+        <div class="mySlides fade">
+          <img src="../videos/leave_Team.gif" style="width:100%; border-bottom: 5px solid #333333;">
+          <div class="text"><p style="font-size: 15pt; opacity: 0.75;">Leaving a Team</p></div>
+        </div>
+
+        <div class="mySlides fade">
+          <img src="../videos/scoring_Points.gif" style="width:100%; border-bottom: 5px solid #333333;">
+          <div class="text"><p style="font-size: 15pt; opacity: 0.75;">Scoring points</p></div>
+        </div>
+
+        <div class="mySlides fade">
+          <img src="../videos/giving_Points.gif" style="width:100%; border-bottom: 5px solid #333333;">
+          <div class="text"><p style="font-size: 15pt; opacity: 0.75;">Giving points</p></div>
+        </div>
+
+        <div class="mySlides fade">
+          <img src="../videos/scoreboard_Updating.gif" style="width:100%; border-bottom: 5px solid #333333;">
+          <div class="text"><p style="font-size: 15pt; opacity: 0.75;">Scoreboard update</p></div>
+          
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>
+      <div>
+        <h1 style="position: absolute; left: 31.3%; margin-top: 0;">MC Teams</h1>
+        <div style="position: absolute; background-color:#242424da; height:2px; width:35%; left: 31.3%; top: 66%;">
+          <p style="opacity: 0.6; position: relative; right: 4%; margin-top: 15px; line-height: 14pt; ">MC Teams is a minecraft plugin that allows for players to create, delete, and join</p>
+          <p style="opacity: 0.6; position: relative; right: 17.6%;">teams, award points, and stores all data in a MySQL DB.</p></p> 
+        </div>
+        <a href="https://github.com/rbretmounet/minecraft_plugin" class="btn btn-sm animated-button thar-one" style="position: absolute; left: 31.3%; top: 73%; height:8px; width: 100px; font-size:13px; color: #333333;">View Code</a>
+        <span class="close">&times;</span>
+      </div>
+      
+    </div> 
   </div>
 
 </div>
@@ -185,5 +240,45 @@
 <script src='https://rawgit.com/alvarotrigo/fullPage.js/dev/src/fullpage.js'></script><script  src="../JavaScript/script.js"></script>
 <script  src="../JavaScript/validate.js"></script>
 <script  src="../JavaScript/modal.js"></script>
+<script>
+  var slideIndex = 1;
+  showSlides(slideIndex);
+
+  // Next/previous controls
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+
+  // Thumbnail image controls
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+
+  function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}
+    slides[slideIndex-1].style.display = "block";
+    setTimeout(showSlides, 4000); // Change image every 2 seconds
+  }
+
+</script>
 </body>
 </html>
