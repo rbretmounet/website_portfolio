@@ -9,34 +9,35 @@
 	src: url(../Fonts/Nexa_V2_2020/OTF/NexaDemo-Bold.otf)
 }
 /* Slideshow container */
-.slideshow-container {
+.slideshow-container{
 	width: 768px;
 	height: 433px;
 	margin-bottom: 0;
   }
   
   /* Hide the images by default */
-.mySlides {
+.mySlides1, .mySlides2 {
 	display: none;
   }
 /* Next & previous buttons */
 .prev, .next {
 	cursor: pointer;
 	position: absolute;
-	top: 70%;
+	top: 51.5%;
+	right: 67.5%;
 	width: auto;
 	margin-top: -22px;
 	padding: 16px;
 	color: white;
 	font-weight: bold;
-	font-size: 18px;
+	font-size: 30px;
 	transition: 0.6s ease;
 	border-radius: 0 3px 3px 0;
 	user-select: none;
   }
 /* Position the "next button" to the right */
 .next {
-	right: 0;
+	right: 30%;
 	border-radius: 3px 0 0 3px;
 }
   
@@ -203,11 +204,13 @@ body.fp-viewing-contact .contactHeader, body.fp-viewing-contact input[name="last
 	animation: moveToLeft 1.5s;
 }
 
-body.fp-viewing-contact input[name="first_name"],body.fp-viewing-contact input[name="email"], body.fp-viewing-contact #submitButton{
+body.fp-viewing-contact input[name="first_name"],body.fp-viewing-contact input[name="email"]{
 	animation-delay: 5s;
 	animation: moveToRight 1.5s;
 }
-
+body.fp-viewing-contact #submitButton{
+	animation: fadeIn 3s;
+}
 .aboutHeader{
 	margin-bottom: 0%; 
 	font-family: Nexa-Bold; 
