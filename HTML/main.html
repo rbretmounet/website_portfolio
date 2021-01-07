@@ -4,9 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0"/>
   <title>Portfolio</title>
-  <link rel='stylesheet' href='https://rawgit.com/alvarotrigo/fullPage.js/dev/src/fullpage.css'><link rel="stylesheet" href="../CSS/style.css">
+  <link rel='stylesheet' href='https://rawgit.com/alvarotrigo/fullPage.js/dev/src/fullpage.css'>
+  <link rel="stylesheet" href="../CSS/style.css">
+  <link rel="stylesheet" href="../CSS/bootstrap.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="../CSS/homeStyle.css">
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
   <script type="text/javascript" src="../JavaScript/init.js"></script>
 </head>
@@ -36,77 +37,86 @@
         </div>
     </div>
     <div data-anchor="about" class="section">
-      <h2 class = "aboutHeader">ABOUT ME</h2>
-      <div class="portrait">
-        <img src="../Images/portrait.png" alt="portrait"  width="300" height="240">
-        <div id="aboutText">
-          <h4 style="font-family: Nexa;">Raphael Bret-Mounet</h4>
-          <p style="font-family: Nexa; font-size: large; margin-bottom: 0;">
-            I am currently studying Computer Engineering in college, after  
-          </p>
-          <p style="font-family: Nexa; font-size: large; margin-bottom: 0;">
-            spending my first semester interning at NASA Johnson Space Center. 
-          </p>
-          <p style="font-family: Nexa; font-size: large; margin-bottom: 0;">
-            I am quick to learn and master new technologies; successful working in
-          </p>
-          <p style="font-family: Nexa; font-size: large; margin-bottom: 0;">
-            both team and self-directed settings; and I have a passion for envisioning,
-          </p>
-          <p style="font-family: Nexa; font-size: large; margin-bottom: 0;">
-            tinkering with, and coding robots. Simply put, looking at something complex not 
-          </p>
-          <p style="font-family: Nexa; font-size: large; margin-bottom: 0;">
-            only gets me excited to figure out how it works, but how I can make it work better.
-          </p>
+      <div class="container-md" style="position:absolute;top:0;right:0;left:0;">
+        <div class="row">
+          <h2 class = "aboutHeader">ABOUT ME</h2>
         </div>
-      </div>
-        <div class="skills">
-          <div class="bars">
-            <h4 style="font-family: Nexa-Bold; position: relative; right: 13%; color: #333333;">Skills:</h4>
-            <div class='skill1'>C++</div>
-            <div class="bar-border">
-              <div class="fill1">90%</div>
+        <div class="row" style="position:absolute;top:190px;right:0;left:0;">
+          <div class="col-md-6">
+              <img src="../Images/portrait.png" alt="portrait"  width="300" height="240">
+              <div class="row" >
+                <h4 style="font-family: Nexa;">Raphael Bret-Mounet</h4>
+                <p style="font-family: Nexa; font-size: large; margin-bottom: 0;">
+                  I am currently studying Computer Engineering in college, after  
+                </p>
+                <p style="font-family: Nexa; font-size: large; margin-bottom: 0;">
+                  spending my first semester interning at NASA Johnson Space Center. 
+                </p>
+                <p style="font-family: Nexa; font-size: large; margin-bottom: 0;">
+                  I am quick to learn and master new technologies; successful working in
+                </p>
+                <p style="font-family: Nexa; font-size: large; margin-bottom: 0;">
+                  both team and self-directed settings; and I have a passion for envisioning,
+                </p>
+                <p style="font-family: Nexa; font-size: large; margin-bottom: 0;">
+                  tinkering with, and coding robots. Simply put, looking at something complex not 
+                </p>
+                <p style="font-family: Nexa; font-size: large; margin-bottom: 0;">
+                  only gets me excited to figure out how it works, but how I can make it work better.
+                </p>
+                <a href="../files/Raphael_Bret_Mounet_-_Intern.pdf" class="btn btn-sm animated-button thar-one" style="height:15px; width: 100px; font-size:13px; color: #2c2c2c; margin-top: 50px;" download>Resume</a>
+              </div>
+          </div>
+          <div class="col-md-5">
+            <div class="row-sm">
+              <h4>Skills</h3>
             </div>
-            <div class='skill1'>Python</div>
-            <div class="bar-border">
-              <div class="fill2">80%</div>
-            </div>
-            <div class='skill1'>MySQL</div>
-            <div class="bar-border">
-              <div class="fill3">60%</div>
-            </div>
-            <div class='skill1'>Git</div>
-            <div class="bar-border">
-              <div class="fill4">90%</div>
-            </div>
-            <div class='skill1'>Java</div>
-            <div class="bar-border">
-              <div class="fill5">80%</div>
-            </div>
-            <div class='skill1'>Matlab</div>
-            <div class="bar-border">
-              <div class="fill6">80%</div>
-            </div>
-            <div class='skill1'>HTML</div>
-            <div class="bar-border">
-              <div class="fill7">70%</div>
-            </div>
-            <div class='skill1'>CSS</div>
-            <div class="bar-border">
-              <div class="fill8">70%</div>
-            </div>
-            <div class='skill1'>PHP</div>
-            <div class="bar-border">
-              <div class="fill9">60%</div>
-            </div>
-            <div class='skill1'>AWS</div>
-            <div class="bar-border">
-              <div class="fill10">70%</div>
+            <div class="row-sm">
+              <div class="skill1"> C++</div>
+              <div class="bar-border">
+                <div class="fill1">90%</div>
+              </div>
+              <div class='skill1'>Python</div>
+              <div class="bar-border">
+                <div class="fill2">80%</div>
+              </div>
+              <div class='skill1'>MySQL</div>
+              <div class="bar-border">
+                <div class="fill3">60%</div>
+              </div>
+              <div class='skill1'>Git</div>
+              <div class="bar-border">
+                <div class="fill4">90%</div>
+              </div>
+              <div class='skill1'>Java</div>
+              <div class="bar-border">
+                <div class="fill5">80%</div>
+              </div>
+              <div class='skill1'>Matlab</div>
+              <div class="bar-border">
+                <div class="fill6">80%</div>
+              </div>
+              <div class='skill1'>HTML</div>
+              <div class="bar-border">
+                <div class="fill7">70%</div>
+              </div>
+              <div class='skill1'>CSS</div>
+              <div class="bar-border">
+                <div class="fill8">70%</div>
+              </div>
+              <div class='skill1'>PHP</div>
+              <div class="bar-border">
+                <div class="fill9">60%</div>
+              </div>
+              <div class='skill1'>AWS</div>
+              <div class="bar-border">
+                <div class="fill10">70%</div>
+              </div>
             </div>
           </div>
         </div>
-        <a href="../files/Raphael_Bret_Mounet_-_Intern.pdf" class="btn btn-sm animated-button thar-one" style="position: absolute; left: 26.9%; top: 73%; height:15px; width: 100px; font-size:13px; color: #2c2c2c;" download>Resume</a>
+      </div>
+        
 
     </div>
     <div data-anchor="projects" class="section" >

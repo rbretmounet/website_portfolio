@@ -8,6 +8,10 @@
 	font-family: Nexa-Bold;
 	src: url(../Fonts/Nexa_V2_2020/OTF/NexaDemo-Bold.otf)
 }
+
+
+
+
 /* Slideshow container */
 .slideshow-container{
 	width: 768px;
@@ -101,6 +105,9 @@
 	transform: translate(-50%, 30%);
 	-ms-transform: translate(-50%, 30%);
 	text-align: center;
+}
+#about{
+	display: grid;
 }
 
 div#project1:hover .image{
@@ -215,9 +222,6 @@ body.fp-viewing-contact #submitButton{
 	margin-bottom: 0%; 
 	font-family: Nexa-Bold; 
 	color: #333333; 
-	position: absolute; 
-	top: .5vh; 
-	left: 45vw;
 }
 
 h4 {
@@ -231,7 +235,7 @@ p {
 
 .portrait{
 	position: absolute;
-	top: 25vh;
+	top: 20vh;
 	left: 13vw;
 }
 .bars{
@@ -240,15 +244,11 @@ p {
 	
 }
 .skill1{
-	background-color:#414040;
-	width: 35%;
-	font-family: Nexa;
-	color: #f8f8ff;
-	height: 6.05%;
-	font-size: 63%;
-	position: absolute;
-	right: 100%;
-	
+	background-color:#414040; 
+	float:left; 
+	font-size: 20px; 
+	width: 90px; 
+	color: white;
 }
  .skills{
 	position: absolute;
@@ -258,15 +258,15 @@ p {
 }
 .bar-border{
 	border: 3px solid#4d4c4c;
-	margin-bottom: 3%;
+	height: 25px; 
+	margin-bottom: 9px;
 }
 .fill1,.fill4{
 	height: 100%;
 	width: 90%;
 	background-color: #D24D57;
 	font-family: Nexa;
-	color: #4d4c4c;
-	font-size: 57%;
+	font-size: 20px;
 	
 }
 .fill2,.fill5,.fill6{
@@ -274,8 +274,7 @@ p {
 	width: 80%;
 	background-color: #D24D57;
 	font-family: Nexa;
-	color: #4d4c4c;
-	font-size: 57%;
+	font-size: 20px;
 	
 }
 .fill3,.fill9{
@@ -283,8 +282,7 @@ p {
 	width: 60%;
 	background-color: #D24D57;
 	font-family: Nexa;
-	color: #4d4c4c;
-	font-size: 57%;
+	font-size: 20px;
 }
 
 .fill7,.fill8,.fill10{
@@ -292,8 +290,7 @@ p {
 	width: 70%;
 	background-color: #D24D57;
 	font-family: Nexa;
-	color: #4d4c4c;
-	font-size: 57%;
+	font-size: 20px;
 }
 
 .fa {
@@ -666,12 +663,13 @@ a.animated-button.thar-four:before {
 .section {
   text-align: center;
   font-size: 2em;
-  
+  background-color: teal;
 }
 .contactHeader{
 	color:  #f8f8ff;
 	font-family: Nexa;
 	text-align: center;
+	padding: 0 0 0 0;
 }
 
 video {
@@ -711,7 +709,7 @@ h3 {
 	text-align: center;
 }
 
-/* Add styles to 'container' class */
+/* Add styles to 'container' class 
 .container {
 	display: inline-block;
 	padding: 12px 24px 24px 24px;
@@ -720,9 +718,9 @@ h3 {
 	justify-content: center;
 	align-items: center;
 	top: -15vh;
-	width: 50vh;
+	width: 40vh;
 	position: relative;
-}
+}*/
 
 /* Add styles to 'label' selector */
 label {
