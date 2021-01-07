@@ -100,14 +100,11 @@
 	transition: .5s ease;
 	opacity: 0;
 	position: absolute;
-	top: -30%;
+	top: 45%;
 	left: 50%;
-	transform: translate(-50%, 30%);
-	-ms-transform: translate(-50%, 30%);
+	transform: translate(-50%, -45%);
+	-ms-transform: translate(-50%, -45%);
 	text-align: center;
-}
-#about{
-	display: grid;
 }
 
 div#project1:hover .image{
@@ -129,23 +126,18 @@ div#project2:hover .middle2{
 
 
 div#project1{
-	position: relative;
-	left: 23.5%;
-	margin-right: 0%;
-	margin-left: 0;
-	bottom: 25%;
-	float:left;
-	width: 27%;
+	position: absolute;
+	left:0;
+	right:0;
+	width: 100%;
+
 }
 div#project2{
-	position: relative;
-	margin-right: 0;
-	margin-left: 0;
-	left: 23.5%;
-	bottom: 25%;
-	width: 27%;
-	height: 0%;
-	float: left;
+	position: absolute;
+	left:0;
+	right:0;
+	width: 100%;
+
 }
 /* The Modal (background) */
 .modal {

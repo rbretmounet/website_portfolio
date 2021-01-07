@@ -38,13 +38,13 @@
     </div>
     <div data-anchor="about" class="section">
       <div class="container-md" style="position:absolute;top:0;right:0;left:0;">
-        <div class="row">
+        <div class="row-md">
           <h2 class = "aboutHeader">ABOUT ME</h2>
         </div>
         <div class="row" style="position:absolute;top:190px;right:0;left:0;">
           <div class="col-md-6">
               <img src="../Images/portrait.png" alt="portrait"  width="300" height="240">
-              <div class="row" >
+              <div class="row-md" >
                 <h4 style="font-family: Nexa;">Raphael Bret-Mounet</h4>
                 <p style="font-family: Nexa; font-size: large; margin-bottom: 0;">
                   I am currently studying Computer Engineering in college, after  
@@ -68,10 +68,10 @@
               </div>
           </div>
           <div class="col-md-5">
-            <div class="row-sm">
+            <div class="row-md">
               <h4>Skills</h3>
             </div>
-            <div class="row-sm">
+            <div class="row-md">
               <div class="skill1"> C++</div>
               <div class="bar-border">
                 <div class="fill1">90%</div>
@@ -120,27 +120,41 @@
 
     </div>
     <div data-anchor="projects" class="section" >
-      <h2 style="font-family: Nexa-Bold; position: relative; color: #333333; margin-bottom: 20px; position: relative; bottom: 25%;">MY PROJECTS</h2>
-      <div id="project1">
-        <img src="../videos/scoring_Points.gif" alt="Avatar" class="image" style="width:100%">
-        <div class="middle">
-          <div class="title">
-            <h6 style="font-family: Nexa-Bold; margin-bottom: 0 ">Minecraft Plugin</h6>
-            <p style="color: #D24D57; font-family: Nexa-Bold; font-size: 10pt; margin-top: 3px; margin-bottom: 40px;">JavaScript</p>
-            <a href="#" onclick="modal_handle('project1_modal',0)" class="btn btn-sm animated-button thar-one">Learn More</a>
+      <div class="container" style="position:absolute;top:0;right:0;left:0;">
+        <div class="row">
+          <h2 style="font-family: Nexa-Bold;color: #333333;">MY PROJECTS</h2>
+        </div> 
+        <div class="row">
+          <div class="col-md-6" >
+            <div id="project1">
+             <img src="../videos/scoring_Points.gif" alt="Avatar" class="image" style="width:590px; position: relative; left : 2.7%; float: left;">
+              <div class="middle">
+                <div class="title">
+                  <h6 style="font-family: Nexa-Bold; margin-bottom: 0 ">Minecraft Plugin</h6>
+                  <p style="color: #D24D57; font-family: Nexa-Bold; font-size: 10pt; margin-top: 3px; margin-bottom: 40px;">JavaScript</p>
+                  <a href="#" onclick="modal_handle('project1_modal',0)" class="btn btn-sm animated-button thar-one">Learn More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-5">
+            <div id="project2">
+              <img src="../videos/upload_video.gif" alt="Avatar" class="image2" style="width:590px; float: right;">
+              <div class="middle2">
+                <div class="title2">
+                  <h6 style="font-family: Nexa-Bold; color:white; margin-bottom: 0">TikTok Bot</h6>
+                  <p style="color: #D24D57; font-family: Nexa-Bold; font-size: 10pt; margin-top: 3px; margin-bottom: 40px;">Python</p>
+                  <a href="#" onclick="modal_handle('project2_modal',1)" class="btn btn-sm animated-button thar-one">Learn More</a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
+
       </div>
-      <div id="project2">
-        <img src="../videos/upload_video.gif" alt="Avatar" class="image2" style="width:100%">
-        <div class="middle2">
-          <div class="title2">
-            <h6 style="font-family: Nexa-Bold; color:white; margin-bottom: 0">TikTok Bot</h6>
-            <p style="color: #D24D57; font-family: Nexa-Bold; font-size: 10pt; margin-top: 3px; margin-bottom: 40px;">Python</p>
-            <a href="#" onclick="modal_handle('project2_modal',1)" class="btn btn-sm animated-button thar-one">Learn More</a>
-          </div>
-        </div>
-      </div>
+      
+     
+  
       
     </div> 
     <div data-anchor="contact" class="section">
