@@ -11,11 +11,10 @@
 
 
 
-
 /* Slideshow container */
 .slideshow-container{
-	width: 768px;
-	height: 433px;
+	width: 100%;
+	height: 100%;
 	margin-bottom: 0;
   }
   
@@ -297,7 +296,7 @@ p {
 	height: .3vh;
 	justify-content: center;
 	align-items: center;
-	top: -2vh;
+	top: -5.5vh;
 	right: .2vw;
 }
   
@@ -311,8 +310,9 @@ footer {
 .socials{
 	background-color:#1b242f;
 	padding: 70px 0 70px 0;
-	position: absolute;
-	bottom: 0%;
+	position: relative;
+	top: 42%;
+	height: 10px;
 	width: 100%;
 }
 
@@ -701,18 +701,14 @@ h3 {
 	text-align: center;
 }
 
-/* Add styles to 'container' class 
-.container {
+/* Add styles to 'container' class */
+.formContainer {
 	display: inline-block;
-	padding: 12px 24px 24px 24px;
-	margin: 48px 12px;
 	background: transparent;
 	justify-content: center;
 	align-items: center;
-	top: -15vh;
-	width: 40vh;
-	position: relative;
-}*/
+	width: 70%;
+}
 
 /* Add styles to 'label' selector */
 label {
@@ -721,8 +717,8 @@ label {
 }
 
 /* Add styles to 'input' and 'textarea' selectors */
-input[type=text],input[type=email], textarea {
-    width: 100%;
+input[type=text],input[type=email]{
+	width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -733,7 +729,19 @@ input[type=text],input[type=email], textarea {
 	background-color:  #4d4c4c;
 	color:#F8F8FF;
 }
-
+textarea {
+	width: 100%;
+	height: 300px;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+	background-color:  #4d4c4c;
+	color:#F8F8FF;
+}
 /* Add styles to show 'focus' of selector */
 input[type=text]:focus,input[type=email]:focus, textarea:focus {
 	border: 1px solid #D24D57;
