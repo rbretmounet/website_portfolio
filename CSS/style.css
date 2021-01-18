@@ -313,10 +313,10 @@ footer {
 .socials{
 	background-color:#1b242f;
 	padding: 70px 0 70px 0;
-	position: relative;
-	top: 42%;
-	height: 10px;
+	position: absolute;
+	bottom: 0;
 	width: 100%;
+	height: 2%;
 }
 
 .navbar {
@@ -655,10 +655,10 @@ a.animated-button.thar-four:before {
 	transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
 	0s;
 }
+
 .section {
   text-align: center;
   font-size: 2em;
-  background-color: teal;
 }
 .contactHeader{
 	color:  #f8f8ff;
@@ -711,6 +711,7 @@ h3 {
 	justify-content: center;
 	align-items: center;
 	width: 70%;
+	position: relative;
 }
 
 /* Add styles to 'label' selector */
