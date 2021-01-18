@@ -10,6 +10,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
   <script type="text/javascript" src="../JavaScript/init.js"></script>
+  <script type="text/javascript" src="../JavaScript/bootstrap.js"></script>
+
 </head>
 <body>
     <header id="menu">
@@ -184,124 +186,117 @@
   <!-- Modal content -->
   <div class="modal-content">
     <div class="container-md">
-      <div class="row-md">
-        <div style="text-align: center; font-family: Nexa-Bold;">
-          <div class="slideshow-container">
-            <div class="mySlides1">
-              <img src="../videos/create_Teams.gif" style="width:100%; border-bottom: 5px solid #333333;">
-              <div class="text"><p style="font-size: 15pt; opacity: 0.75;">Creating a team</p></div>
-            </div>
+        <div style="font-family: Nexa-Bold;">
+          <div class="row-md">
+            <div class="slideshow-container">
+              <div class="mySlides1">
+                <img src="../videos/create_Teams.gif" style="width:100%; border-bottom: 5px solid #333333;">
+                <div class="text"><p style="font-size: 15pt; opacity: 0.75;">Creating a team</p></div>
+              </div>
 
-            <div class="mySlides1">
-              <img src="../videos/delete_Team.gif" style="width:100%; border-bottom: 5px solid #333333;">
-              <div class="text"><p style="font-size: 15pt; opacity: 0.75;">Deleting a team</p></div>
-            </div>
+              <div class="mySlides1">
+                <img src="../videos/delete_Team.gif" style="width:100%; border-bottom: 5px solid #333333;">
+                <div class="text"><p style="font-size: 15pt; opacity: 0.75;">Deleting a team</p></div>
+              </div>
 
-            <div class="mySlides1">
-              <img src="../videos/join_Team.gif" style="width:100%; border-bottom: 5px solid #333333;">
-              <div class="text"><p style="font-size: 15pt; opacity: 0.75;">Joining a team</p></div>
-            </div>
+              <div class="mySlides1">
+                <img src="../videos/join_Team.gif" style="width:100%; border-bottom: 5px solid #333333;">
+                <div class="text"><p style="font-size: 15pt; opacity: 0.75;">Joining a team</p></div>
+              </div>
 
-            <div class="mySlides1">
-              <img src="../videos/leave_Team.gif" style="width:100%; border-bottom: 5px solid #333333;">
-              <div class="text"><p style="font-size: 15pt; opacity: 0.75;">Leaving a Team</p></div>
-            </div>
+              <div class="mySlides1">
+                <img src="../videos/leave_Team.gif" style="width:100%; border-bottom: 5px solid #333333;">
+                <div class="text"><p style="font-size: 15pt; opacity: 0.75;">Leaving a Team</p></div>
+              </div>
 
-            <div class="mySlides1">
-              <img src="../videos/scoring_Points.gif" style="width:100%; border-bottom: 5px solid #333333;">
-              <div class="text"><p style="font-size: 15pt; opacity: 0.75;">Scoring points</p></div>
-            </div>
+              <div class="mySlides1">
+                <img src="../videos/scoring_Points.gif" style="width:100%; border-bottom: 5px solid #333333;">
+                <div class="text"><p style="font-size: 15pt; opacity: 0.75;">Scoring points</p></div>
+              </div>
 
-            <div class="mySlides1">
-              <img src="../videos/giving_Points.gif" style="width:100%; border-bottom: 5px solid #333333;">
-              <div class="text"><p style="font-size: 15pt; opacity: 0.75;">Giving points</p></div>
-            </div>
+              <div class="mySlides1">
+                <img src="../videos/giving_Points.gif" style="width:100%; border-bottom: 5px solid #333333;">
+                <div class="text"><p style="font-size: 15pt; opacity: 0.75;">Giving points</p></div>
+              </div>
 
-            <div class="mySlides1">
-              <img src="../videos/scoreboard_Updating.gif" style="width:100%; border-bottom: 5px solid #333333;">
-              <div class="text"><p style="font-size: 15pt; opacity: 0.75;">Scoreboard update</p></div>
+              <div class="mySlides1">
+                <img src="../videos/scoreboard_Updating.gif" style="width:100%; border-bottom: 5px solid #333333;">
+                <div class="text"><p style="font-size: 15pt; opacity: 0.75;">Scoreboard update</p></div>
+              </div>
+              <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+            </div>
+          </div>
           
-            </div>
-            <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
-            <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
-          </div>
-          <br>
-          <div>
-            <h1 style="position: absolute; left: 31.3%; margin-top: 0;">MC Teams</h1>
-            <div style="position: absolute; background-color:#242424da; height:2px; width:35%; left: 31.3%; top: 66%;">
-              <p style="opacity: 0.6; position: relative; right: 4.5%; margin-top: 15px; line-height: 14pt; ">MC Teams is a Minecraft plugin that allows players to create, delete, join teams, </p>
-              <p style="opacity: 0.6; position: relative; right: 21.7%;">award points, and stores all data in a MySQL DB.</p></p> 
-            </div>
-            <a href="https://github.com/rbretmounet/minecraft_plugin" class="btn btn-sm animated-button thar-one" style="position: absolute; left: 31.3%; top: 73%; height:8px; width: 100px; font-size:13px; color: #333333;">View Code</a>
+          <div class="row-md">
+            <h1 style="position: relative; left: 3%; margin-bottom: 5px;" >MC Teams</h1>
+            <div style="background-color:#242424da; height:2px; width:90%; position: relative; left: 3%; margin-bottom: 0;"></div>
+            <p style="opacity: 0.6; font-size: 11pt; position: relative; line-height: 16pt; padding-top: 0px; padding-right: 30px; left: 3%;">MC Teams is a Minecraft plugin that allows players to create, delete, join teams, award points, and stores  all data in a MySQL DB.</p>
+            <a href="https://github.com/rbretmounet/minecraft_plugin" class="btn btn-sm animated-button thar-one" style="position: relative; float: left; height:10px; width: 100px; font-size:13px; color: #333333; left: 3%;">View Code</a>
             <span class="close">&times;</span>
+            <p style="opacity: 0; font-size: 32pt;"> Spacing</p>
           </div>
-      
         </div>
-      </div>
-    </div>
-      
-    
+    </div>  
   </div>
-
 </div>
 <!-- Project2 Modal -->
 <div id="project2_modal" class="modal">
 
   <!-- Modal content -->
   <div class="modal-content">
-    
-    <div style="text-align: center; font-family: Nexa-Bold;">
-      <div class="slideshow-container">
-        <div class="mySlides2">
-          <img src="../videos/download_videos.gif" style="width:100%; border-bottom: 5px solid #333333;">
-          <div class="text"><p style="font-size: 15pt; opacity: 0.75;">Downloading videos</p></div>
-        </div>
+    <div class="container-md">
+      <div style="font-family: Nexa-Bold;">
+        <div class="row-md">
+          <div class="slideshow-container">
+            <div class="mySlides2">
+            <img src="../videos/download_videos.gif" style="width:100%; border-bottom: 5px solid #333333;">
+            <div class="text"><p style="font-size: 15pt; opacity: 0.75;">Downloading videos</p></div>
+          </div>
 
-        <div class="mySlides2">
-          <img src="../videos/generate_clips.gif" style="width:100%; border-bottom: 5px solid #333333;">
-          <div class="text"><p style="font-size: 15pt; opacity: 0.75;">Editing video</p></div>
-        </div>
+          <div class="mySlides2">
+            <img src="../videos/generate_clips.gif" style="width:100%; border-bottom: 5px solid #333333;">
+            <div class="text"><p style="font-size: 15pt; opacity: 0.75;">Editing video</p></div>
+          </div>
 
-        <div class="mySlides2">
-          <img src="../videos/upload_video.gif" style="width:100%; border-bottom: 5px solid #333333;">
-          <div class="text"><p style="font-size: 15pt; opacity: 0.75;">Uploading video</p></div>
-        </div>
+          <div class="mySlides2">
+            <img src="../videos/upload_video.gif" style="width:100%; border-bottom: 5px solid #333333;">
+            <div class="text"><p style="font-size: 15pt; opacity: 0.75;">Uploading video</p></div>
+          </div>
 
-        <div class="mySlides2">
-          <img src="../Images/Before.PNG" style="width:100%; border-bottom: 5px solid #333333;">
-          <div class="text"><p style="font-size: 15pt; opacity: 0.75;">Before editing</p></div>
-        </div>
+          <div class="mySlides2">
+            <img src="../Images/Before.PNG" style="width:100%; border-bottom: 5px solid #333333;">
+            <div class="text"><p style="font-size: 15pt; opacity: 0.75;">Before editing</p></div>
+          </div>
 
-        <div class="mySlides2">
-          <img src="../Images/part1.PNG" style="width:100%; height:432px; border-bottom: 5px solid #333333;">
-          <div class="text"><p style="font-size: 15pt; opacity: 0.75;">After editing</p></div>
-        </div>
+          <div class="mySlides2">
+            <img src="../Images/part1.PNG" style="width:100%; height:432px; border-bottom: 5px solid #333333;">
+            <div class="text"><p style="font-size: 15pt; opacity: 0.75;">After editing</p></div>
+          </div>
 
-        <div class="mySlides2">
-          <img src="../Images/part2.PNG" style="width:100%; height:432px; border-bottom: 5px solid #333333;">
-          <div class="text"><p style="font-size: 15pt; opacity: 0.75;">After editing</p></div>
-        </div>
+          <div class="mySlides2">
+            <img src="../Images/part2.PNG" style="width:100%; height:432px; border-bottom: 5px solid #333333;">
+            <div class="text"><p style="font-size: 15pt; opacity: 0.75;">After editing</p></div>
+          </div>
 
-        <div class="mySlides2">
-          <img src="../Images/part3.PNG" style="width:100%; height:432px; border-bottom: 5px solid #333333;">
-          <div class="text"><p style="font-size: 15pt; opacity: 0.75;">After editing</p></div>
+          <div class="mySlides2">
+            <img src="../Images/part3.PNG" style="width:100%; height:432px; border-bottom: 5px solid #333333;">
+            <div class="text"><p style="font-size: 15pt; opacity: 0.75;">After editing</p></div>
           
+          </div>
+          <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
         </div>
-        <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
-      </div>
-      <br>
-      <div>
-        <h1 style="position: absolute; left: 31.3%; margin-top: 0;">TikTok Bot</h1>
-        <div style="position: absolute; background-color:#242424da; height:2px; width:35%; left: 31.3%; top: 66%;">
-          <p style="opacity: 0.6; position: relative; right: 3.8%; margin-top: 15px; line-height: 14pt; ">TikTok Bot is a bot that downloads youtube videos from a playlist and edits them.</p>
-          <p style="opacity: 0.6; position: relative; right: 17.6%;">Then uploads them to TikTok at random scheduled times.</p></p> 
+        <div class="row-md">
+          <h1 style="position: relative; left: 3%; margin-bottom: 5px;" >TikTok Bot</h1>
+          <div style="background-color:#242424da; height:2px; width:90%; position: relative; left: 3%; margin-bottom: 0;"> </div>
+          <p style="opacity: 0.6; font-size: 11pt; position: relative; line-height: 16pt; padding-top: 0px; padding-right: 59px; left: 3%;">TikTok Bot is a bot that downloads youtube videos from a playlist and edits them. Then uploads them to TikTok at random scheduled times.</p>
+          <a href="https://github.com/rbretmounet/bot" class="btn btn-sm animated-button thar-one" style="position: relative; float: left; height:10px; width: 100px; font-size:13px; color: #333333; left: 3%;">View Code</a>
+          <span class="close">&times;</span>
+          <p style="opacity: 0; font-size: 32pt;"> Spacing</p>
         </div>
-        <a href="https://github.com/rbretmounet/bot" class="btn btn-sm animated-button thar-one" style="position: absolute; left: 31.3%; top: 73%; height:8px; width: 100px; font-size:13px; color: #333333;">View Code</a>
-        <span class="close">&times;</span>
-      </div>
-      
-    </div> 
+    </div>
+</div>  
 </div>
 </div>
 <!-- partial -->

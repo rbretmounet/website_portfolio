@@ -15,7 +15,7 @@
 .slideshow-container{
 	width: 100%;
 	height: 100%;
-	margin-bottom: 0;
+	position: relative;
   }
   
   /* Hide the images by default */
@@ -26,8 +26,8 @@
 .prev, .next {
 	cursor: pointer;
 	position: absolute;
-	top: 51.5%;
-	right: 67.5%;
+	top: 87%;
+	height: 42px;
 	width: auto;
 	margin-top: -22px;
 	padding: 16px;
@@ -40,7 +40,11 @@
   }
 /* Position the "next button" to the right */
 .next {
-	right: 30%;
+	right: 0%;
+	border-radius: 3px 0 0 3px;
+}
+.prev{
+	left: 0;
 	border-radius: 3px 0 0 3px;
 }
   
@@ -51,12 +55,12 @@
   /* Caption text */
  .text {
 	color: #f2f2f2;
-	font-size: 10pt;
 	padding: 8px 12px;
-	position: absolute;
-	bottom: 44%;
-	right: -0.5%;
+	font-size: 10pt;
 	width: 100%;
+	position: absolute;
+	bottom: 20px;
+	left: -11px;
 	text-align: center;
   }
 
@@ -100,9 +104,9 @@
 	opacity: 0;
 	position: absolute;
 	top: 45%;
-	left: 50%;
-	transform: translate(-50%, -45%);
-	-ms-transform: translate(-50%, -45%);
+	left: 42%;
+	transform: translate(-42%, -45%);
+	-ms-transform: translate(-42%, -45%);
 	text-align: center;
 }
 
@@ -121,7 +125,7 @@ div#project2:hover .middle2{
 .title,.title2{
 	color: white;
 	font-size: 30px;
-  }
+}
 
 
 div#project1{
@@ -133,7 +137,7 @@ div#project1{
 }
 div#project2{
 	position: absolute;
-	left:0;
+	left:6.7%;
 	right:0;
 	width: 100%;
 
@@ -158,7 +162,6 @@ div#project2{
 	margin: 5% auto; /* 15% from the top and centered */
 	border: 1px solid #888;
 	width: 40%; /* Could be more or less, depending on screen size */
-	height: 70%;
   }
   
   /* The Close Button */
@@ -167,9 +170,9 @@ div#project2{
 	float: right;
 	font-size: 60px;
 	font-weight: bold;
-	position: absolute;
-	top: 71.3%;
-	right: 31.3%;
+	position: relative;
+	right: 30px;
+	bottom: 10px;
   }
   
   .close:hover,
