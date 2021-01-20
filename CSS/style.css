@@ -10,7 +10,6 @@
 }
 
 
-
 /* Slideshow container */
 .slideshow-container{
 	width: 100%;
@@ -311,16 +310,19 @@ footer {
 	width: 85%;
 	margin: 0 auto;
 }
-body.fp-viewing-home #menu{
-	display:none; 
+#menu{
+	display:none;
 }
+body.fp-viewing-about #menu, body.fp-viewing-projects #menu, body.fp-viewing-contact #menu{
+	display: block; 
+}
+
 
 header {
   background: #D24D57;
   position: relative;
   border-bottom: 3px solid#444;
   top: 0px;
-  
   z-index: 3;
 }
 
@@ -646,6 +648,7 @@ a.animated-button.thar-four:before {
 
 .section {
   text-align: center;
+  display: none;
   top: 0;
   font-size: 2em;
 }
