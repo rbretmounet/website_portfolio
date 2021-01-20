@@ -1,14 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
 
 @font-face{
 	font-family: Nexa;
-	src: url(../Fonts/Nexa_V2_2020/OTF/Nexa-Light.otf)
+	src: url(../Fonts/Nexa_V2_2020/OTF/Nexa-Light.otf);
+	font-display: swap
   }
 @font-face{
 	font-family: Nexa-Bold;
-	src: url(../Fonts/Nexa_V2_2020/OTF/NexaDemo-Bold.otf)
+	src: url(../Fonts/Nexa_V2_2020/OTF/NexaDemo-Bold.otf);
+	font-display: swap
 }
-
 
 /* Slideshow container */
 .slideshow-container{
@@ -289,8 +292,8 @@ p {
 .fa {
 	display: inline-block;
 	padding: 20px 10px 50px;
-	font-size: 100px;
-	width: 3%;
+	font-size: 30px;
+	width: 5%;
 	text-decoration: none;
 	position: relative;
 	color: white;

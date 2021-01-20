@@ -6,10 +6,14 @@
   <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0"/>
   <link rel="preload" href="/Fonts/Nexa_V2_2020/Nexa_V2_2020/OTF/Nexa-Light.otf" as="font" type="font/Nexa" crossorigin>
   <link rel="preload" href="/Fonts/Nexa_V2_2020/Nexa_V2_2020/OTF/NexaDemo-Bold.otf" as="font" type="font/Nexa-Bold" crossorigin>
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0" as="font" type="font/wolff2" crossorigin>
   <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" as="font-awesome">
-
+  <link rel="stylesheet" href="/CSS/style.css">
   <title>Portfolio</title>
 </head>
+<script>
+  document.addEventListener('touchstart', onTouchStart, {capture: true});
+</script>
 <body>
     <header id="menu">
         <div class="navbar">
@@ -124,7 +128,7 @@
         <div class="row">
           <div class="col-md-6" >
             <div id="project1">
-             <img src="../videos/scoring_Points.webp" loading="lazy" alt="Avatar" class="image" style="width:590px; position: relative; left : 2.7%; float: left;">
+             <img src="../videos/scoring_Points.webp" loading="lazy" alt="Avatar" class="image" style="width:590px; height:331px; position: relative; left : 2.7%; float: left;">
               <div class="middle">
                 <div class="title">
                   <h5 style="font-family: Nexa-Bold; margin-bottom: 0 ">Minecraft Plugin</h5>
@@ -136,7 +140,7 @@
           </div>
           <div class="col-md-5">
             <div id="project2">
-              <img src="../videos/upload_video.webp" loading="lazy" alt="Avatar" class="image2" style="width:590px; float: right;">
+              <img src="../videos/upload_video.webp" loading="lazy" alt="Avatar" class="image2" style="width:590px; height:331px; float: right;">
               <div class="middle2">
                 <div class="title2">
                   <h5 style="font-family: Nexa-Bold; color:white; margin-bottom: 0">TikTok Bot</h5>
@@ -177,8 +181,7 @@
                 </label>
                
                 <div class="center">
-                  <a id="submitButton" href="#" onclick="validateForm()"
-                  class="btn btn-sm animated-button thar-one">Submit</a>
+                  <a id="submitButton" href="#" onclick="validateForm()"class="btn btn-sm animated-button thar-one">Submit</a>
                   <a href="https://github.com/rbretmounet" class="fa fa-github"></a>
                   <a href="https://www.linkedin.com/in/raphael-bret-mounet/" class="fa fa-linkedin"></a>   
                 </div>
@@ -312,7 +315,6 @@
 </div>
 </div>
 <!-- partial -->
-<link rel="stylesheet" href="/CSS/style.css">
 <link rel='stylesheet' href='https://rawgit.com/alvarotrigo/fullPage.js/dev/src/fullpage.css'>
 <link rel="stylesheet" href="../CSS/bootstrap.css">
 <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
@@ -320,9 +322,10 @@
 <script src='https://unpkg.com/fullpage.js/vendors/scrolloverflow.min.js'></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
 <script type="text/javascript" src="../JavaScript/init.js"></script>
-<script  src="../JavaScript/script.js"></script>
+<script  src="../JavaScript/script.js" async></script>
 <script  src="../JavaScript/validate.js"></script>
 <script  src="../JavaScript/modal.js"></script>
+
 <script>
   var slideIndex = [1,1];
   /* Class the members of each slideshow group with different CSS classes */
