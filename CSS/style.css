@@ -2,6 +2,7 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
 
 
+
 @font-face{
 	font-family: Nexa;
 	src: url(../Fonts/Nexa_V2_2020/OTF/Nexa-Light.otf);
@@ -106,12 +107,27 @@
 	opacity: 0;
 	position: absolute;
 	top: 45%;
-	left: 42%;
-	transform: translate(-42%, -45%);
-	-ms-transform: translate(-42%, -45%);
+	left: 66%;
+	transform: translate(-66%, -45%);
+	-ms-transform: translate(-66%, -45%);
 	text-align: center;
 }
 
+@media (max-width: 991px) { 
+	.container{
+		padding-bottom: 0 !important;
+	}
+	.middle2 {
+		transition: .5s ease;
+		opacity: 0;
+		position: absolute;
+		top: 45%;
+		left: 53%;
+		transform: translate(-53%, -45%);
+		-ms-transform: translate(-53%, -45%);
+		text-align: center;
+	}
+ }
 div#project1:hover .image{
 	opacity: 0.3;
 }
@@ -131,16 +147,12 @@ div#project2:hover .middle2{
 
 
 div#project1{
-	position: absolute;
-	left:0;
-	right:0;
+	position: relative;
 	width: 100%;
 
 }
 div#project2{
-	position: absolute;
-	left:6.7%;
-	right:0;
+	position: relative;
 	width: 100%;
 
 }
@@ -652,7 +664,7 @@ a.animated-button.thar-four:before {
 .section {
   text-align: center;
   display: none;
-  top: 0;
+  padding-top: -0px !important;
   font-size: 2em;
 }
 .contactHeader{
@@ -660,6 +672,7 @@ a.animated-button.thar-four:before {
 	font-family: Nexa;
 	text-align: center;
 	padding: 0 0 0 0;
+	margin-bottom: 5px;
 }
 
 video {
