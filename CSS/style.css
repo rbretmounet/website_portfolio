@@ -319,7 +319,7 @@ footer {
 	margin: 0 auto;
 }
 #menu{
-	display:none;
+	display: none;
 }
 body.fp-viewing-about #menu, body.fp-viewing-projects #menu, body.fp-viewing-contact #menu{
 	display: block; 
@@ -656,7 +656,6 @@ a.animated-button.thar-four:before {
 
 .section {
   text-align: center;
-  display: none;
   padding-top: -0px !important;
   font-size: 2em;
 }
